@@ -1,0 +1,84 @@
+:root {
+    --base-100: RGB: (0, 0, 0);
+    --base-90: #1B1B1B;
+    --base-80: #262626;
+    --base-70: #2F2F2F;
+    --base-60: #64707d;
+    --base-50: #7d8a97;
+    --base-40: #99a3ad;
+    --base-30: #b5bdc4;
+    --base-20: #d2d6db;
+    --base-10: #eef0f1;
+    --link-hover-1: #5a12ff;
+    --nav-link: #99A5AD;
+}
+body {
+    font-family: inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    text-rendering: optimizelegibility;
+}
+.title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    color: #2A2536;
+    text-decoration: none;
+    transition: color .15s ease-in-out;
+    /* border-color .15s ease-in-out,color .15s ease-in-out,
+    opacity .15s ease-in-out; */
+}
+.title:hover {
+    color: #3A0CA3;
+}
+/* Rounded */
+.rounded-4 {
+    border-radius: 6px;
+}
+.rounded-max {
+    border-radius: 15px;
+}
+
+/* Nav */
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    color: var(--nav-link);
+    transition: color .15s ease-in-out;
+}
+.nav-link.active {
+    color: var(--base-70);
+}
+.nav-link.active:hover {
+    color: inherit;
+}
+.nav-link:hover {
+    color: var(--link-hover-1);
+}
+
+/* Content Text & Border */
+.text-content-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: var(--base-80);
+    transition: color .13s ease-in-out;
+}
+.text-content-title:hover {
+    color: var(--link-hover-1);
+}
+.text-content-p {
+    font-family: 'Roboto', sans-serif;
+    color: var(--base-70);
+}
+.el-esd {
+    border-color: inherit;
+    transition: border-color .10s ease-in-out;
+}
+.el-esd:hover {
+    border-color: #3A0CA3 !important;
+}
+
+/* Font */
+.title-footer {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    color: #2A2536;
+}
